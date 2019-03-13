@@ -24,9 +24,22 @@ The code provided here bundles all three components for holistic 3D face modelin
 * [TensorFlow](https://www.tensorflow.org/)
 * [OpenCV Python Wrapper](http://opencv.org/)
 * [Numpy](http://www.numpy.org/)
+* [Scimpy](http://www.scimpy.org/)
 * [Python2.7](https://www.python.org/download/releases/2.7/)
+* [Caffe](http://caffe.berkeleyvision.org/)
+  * [CUDA](https://developer.nvidia.com/cuda-zone)
+  * [BLAS](http://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms)
+  * [Boost](http://www.boost.org/)
+  * protobuf
+  * glog
+  * gflags
+  * hdf5
+  * snappy
+  * leveldb
+  * szip
+  * lmdb
 
-The code has been tested on Linux with Python 2.7.12. On Linux you can rely on the default version of python, installing all the packages needed from the package manager or on Anaconda Python and install required packages through `conda`. 
+The code has been tested on Linux with Python 2.7.12. On Linux you can rely on the default version of python, installing all the packages needed from the package manager or on Anaconda Python and install required packages through `conda`.
 
 
 ## Usage
